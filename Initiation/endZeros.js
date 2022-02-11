@@ -29,4 +29,4 @@ assert.equal(endZeros(101), 0);
 assert.equal(endZeros(245), 0);
 assert.equal(endZeros(100100), 2);
 
-console.log("Coding completed!");
+console.log("Coding complete!");
