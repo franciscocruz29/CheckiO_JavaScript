@@ -1,6 +1,7 @@
 import assert from "assert";
 
-/* In a given text you need to sum the numbers. Only separated numbers should be counted. If a number is part of a word it shouldn't be counted.
+/* In a given text you need to sum the numbers. 
+Only separated numbers should be counted. If a number is part of a word it shouldn't be counted.
 
 The text consists from numbers, spaces and english letters
 
@@ -41,4 +42,4 @@ assert.strictEqual(
 assert.strictEqual(sumNumbers("5 plus 6 is"), 11);
 assert.strictEqual(sumNumbers(""), 0);
 
-console.log("Coding complete? Click 'Check' to earn cool rewards!");
+console.log("Coding complete!");
