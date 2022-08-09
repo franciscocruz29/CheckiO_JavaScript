@@ -31,13 +31,13 @@ function boolean(x: number, y: number, action: string): number {
 console.log("Example:");
 console.log(boolean(0, 0, "conjunction"));
 
-assert.equal(boolean(0, 0, "conjunction"), 0);
-assert.equal(boolean(0, 1, "conjunction"), 0);
-assert.equal(boolean(1, 0, "conjunction"), 0);
-assert.equal(boolean(1, 1, "conjunction"), 1);
-assert.equal(boolean(0, 0, "disjunction"), 0);
-assert.equal(boolean(0, 1, "disjunction"), 1);
-assert.equal(boolean(1, 0, "disjunction"), 1);
-assert.equal(boolean(1, 1, "disjunction"), 1);
+assert.deepStrictEqual(boolean(0, 0, "conjunction"), 0);
+assert.deepStrictEqual(boolean(0, 1, "conjunction"), 0);
+assert.deepStrictEqual(boolean(1, 0, "conjunction"), 0);
+assert.deepStrictEqual(boolean(1, 1, "conjunction"), 1);
+assert.deepStrictEqual(boolean(0, 0, "disjunction"), 0);
+assert.deepStrictEqual(boolean(0, 1, "disjunction"), 1);
+assert.deepStrictEqual(boolean(1, 0, "disjunction"), 1);
+assert.deepStrictEqual(boolean(1, 1, "disjunction"), 1);
 
 console.log("Coding complete!");
